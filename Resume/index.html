@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <style> </style>
+  </head>
+
+  <body>
+
+    <div id="cursor-bg"></div>
+<div class="wrapper" id="cv">
+    
+    <header class="sat" >
+      <h1>Henri Levraut</h1>
+    </header>
+    
+        <div class="colonneleft-container">
+      <div class="picturepart">
+        <image src="OIP.jpeg" class="fge"> </image>
+      </div>
+      <div class="tablecomp" >
+        <table>
+        <tr>
+            <td>php</td>
+            <td><progress value ="70" max="100"></progress></td>
+        </tr><br>
+       <tr>
+            <td> symfony</td>
+            <td><progress value ="40" max="100"></progress></td>
+        </tr><br>
+        <tr>
+            <td> c++</td>
+            <td><progress value ="80" max="100"></progress></td>
+        </tr><br>
+        <tr>
+            <td>python</td>
+            <td><progress value ="100" max="100"></progress></td>
+        </tr><br>
+        <tr>
+            <td> c# </td>
+            <td><progress value ="20" max="100"></progress></td>
+        </tr><br>
+        <tr>
+            <td>html/css</td>
+            <td><progress value="65" max="100"></progress></td>
+            
+        </tr><br>
+        <tr>
+            <td>java</td>
+            <td><progress value ="40" max="100"></progress></td>
+        </tr>
+
+    </table>
+      </div>
+      <div class ="contact">
+        <h3> Contact</h3>
+        <a href="https://github.com/henriLev" style="color :aquamarine">github</a><br><br>
+        <a href="https://www.instagram.com/henri.levraut/" style="color : aquamarine">mon instagram</a><br><br>
+        <a href="tel:0656836298" style="color:aquamarine">appelez moi!</a><br><br>
+        <a href="henrilevraut696@gmail.com"style="color:aquamarine">envoyer moi un mail</a>
+      </div>
+      <div class="tablecomp">
+        <table>
+
+        </table>
+
+      </div>
+    </div>
+      <aside class="side-container">
+            <div class="text">
+                <h4>PRESENTATION</h4>
+                <p>je me présente je m'appelle henri, je recherche un emploi dans le monde du développement et plus particulièrement dans
+                    le jeux vidéo. J'aime la littérature, m'améliorer. 
+                </p>
+            </div>
+            <div class="text">
+                <table>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td><h4>DEUST SYSTEME RESEAU ET GESTION</h4>
+                        <p> diplome orienté vers la gestion et en partie l'informatique, travaille sur différent langage, java, php etc... apprentissage de la gestion de projet</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2024-2027</td>
+                        <td><h4>EPITECH</h4>
+                        <p> diplome majoritairement informatique apprentissage plus approfondie de plusieurs langage. méthodologie unique visant la capacité de récupération des informations par soi-même</p>
+                        </td>
+
+                    </tr>
+                    
+                    
+                </table>
+            </div> 
+            <div class="text">
+                <h3> EXPERIENCE PROFESSIONEL</h3>
+                <table>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td><h4>TRANSACTIS</h4>
+                        <p>poste d'intégrateur technique au sein de Transactis, travaille sur l'optimisation de rendu des données serveurs</p></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </aside>
+   
+        </div>
+
+        
+        <script>
+            const bg = document.getElementById('cursor-bg');
+ 
+ document.addEventListener('pointermove', (e) => {
+   bg.style.display = 'block';
+  
+   bg.animate ({
+     top: e.pageY + 'px',
+     left: e.pageX + 'px'
+   }, {
+     duration: 1000,
+     fill: 'forwards'
+   })
+ })
+
+
+        </script>
+    </main>
+    </body>
+</html>
